@@ -11,7 +11,9 @@ RPMBUILDROOT=$HOME/rpmbuild
 #export RPM_BUILD_ROOT=$RPMBUILDROOT
 
 #Download bigtop repo (1.5.0)
-[ -f ./bigtop.repo ]||wget https://archive.apache.org/dist/bigtop/bigtop-1.5.0/repos/centos-7/bigtop.repo
+#[ -f ./bigtop.repo ]||wget https://archive.apache.org/dist/bigtop/bigtop-1.5.0/repos/centos-7/bigtop.repo
+#Download bigtop repo (3.2.1)
+[ -f ./bigtop.repo ]||wget https://dlcdn.apache.org/bigtop/bigtop-3.2.1/repos/centos-7/bigtop.repo
 
 #install building requirements
 #get /usr/include/hdfs.h
