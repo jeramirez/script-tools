@@ -1,7 +1,7 @@
 #!/bin/bash
 
 PACKAGE=xrootd-hdfs
-VERSION=2.2.0.1.1
+VERSION=2.2.2
 RELEASETAG=1
 RELEASERPM=1
 
